@@ -44,6 +44,10 @@
      display: none;
  }
 
+ .navigation__container:hover {
+    cursor: pointer;
+}
+
 
  .left__container {
 
@@ -71,7 +75,7 @@
  }
 
  .left__container a {
-     color: var(--cor-turquesa);
+     color: var(--cor-branco);
      background-color: var(--cor-azul-escuro);
 
      font-weight: bold;
@@ -89,6 +93,10 @@
 
      text-align: center;
      text-decoration: none;
+ }
+
+ .left__container a:hover {
+    color:var(--cor-turquesa);
  }
 
  .right__container {
@@ -216,6 +224,13 @@
      height: 32px;
  }
 
+ .button:hover {
+    cursor: pointer;
+    color: var(--cor-turquesa);
+}
+
+
+
  footer {
      background-color: var(--cor-azul-escuro);
 
@@ -234,6 +249,10 @@
  .footer__img {
      width: 32px;
      height: 32px;
+ }
+
+ .footer__img:hover{
+        cursor: pointer;
  }
 
  .footer__container__tertiary {
